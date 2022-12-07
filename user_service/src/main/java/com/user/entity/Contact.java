@@ -1,6 +1,6 @@
 package com.user.entity;
 
-public class contact {
+public class Contact {
     private Long cId;
     private String email;
     private String contactName;
@@ -8,18 +8,18 @@ public class contact {
 
 
 
-    public contact(Long cId, String email, String contactName, Long userId) {
+    public Contact(Long cId, String email, String contactName, Long userId) {
         this.cId = cId;
         this.email = email;
         this.contactName = contactName;
         this.userId = userId;
     }
 
-    public contact() {
+    public Contact() {
 
     }
 
-    public Long getcId() {3
+    public Long getcId() {
         return cId;
     }
 
