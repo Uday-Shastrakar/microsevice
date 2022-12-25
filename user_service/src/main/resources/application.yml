@@ -1,2 +1,2 @@
-Server:
-  port: 9001
+server:
+ port: 9001
