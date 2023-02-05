@@ -11,7 +11,7 @@ import com.contact.entity.Contact;
 import com.contact.service.ContactService;
 
 @RestController
-@RequestMapping("/Contact")
+@RequestMapping("/contact")
 public class ContactController {
 	
 	@Autowired
