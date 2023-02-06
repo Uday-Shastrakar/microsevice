@@ -8,3 +8,6 @@ eureka:
   server:
     waitTimeInMsWhenSyncEmpty: 0 
     
+  instance:
+    hostname: localhost
+    
